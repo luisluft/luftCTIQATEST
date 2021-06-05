@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-v5",
+  "version": "1.0.0",
+  "description": "WebdriverIO v5 Test Automation Framework",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "@wdio/local-runner": "^7.7.3",
+    "@wdio/mocha-framework": "^7.7.3",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chromedriver": "^91.0.0",
+    "wdio-chromedriver-service": "^7.1.0"
+  }
+}
